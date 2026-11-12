@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="ZENVIXOFF ESPORTS — community tournaments, match updates and leaderboards.">
+  <title>ZENVIXOFF ESPORTS | Play. Compete. Rise.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="ZENVIXOFF ESPORTS home"><span class="brand-mark">Z</span><span>ZENVIXOFF <b>ESPORTS</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks"><a href="#tournaments">Tournaments</a><a href="#how">How to play</a><a href="#leaderboard">Leaderboard</a><a href="#about">About</a></nav>
+    <a class="nav-cta" href="#tournaments">Explore matches <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> COMMUNITY ESPORTS PLATFORM</div>
+        <h1>PLAY HARD.<br><em>RISE HIGH.</em></h1>
+        <p class="hero-text">Your arena. Your squad. Your moment. Find community matches, track results and climb the ZENVIXOFF leaderboard.</p>
+        <div class="hero-actions"><a class="button primary" href="#tournaments">Explore tournaments <span>→</span></a><a class="button secondary" href="#how">How it works</a></div>
+        <div class="hero-note"><span class="live-dot"></span> Built for the gaming community <span class="note-divider">/</span> Fair play first</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract esports shield artwork">
+        <div class="art-ring ring-a"></div><div class="art-ring ring-b"></div>
+        <div class="shield"><div class="shield-inner">Z<span>OFF</span></div></div>
+        <div class="art-label label-top">EST. COMMUNITY</div><div class="art-label label-bottom">NO SHORTCUTS. JUST SKILL.</div>
+        <div class="art-cross">✦</div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Platform highlights">
+      <div><strong>01</strong><span>Community matches</span></div><div><strong>SOLO / DUO / SQUAD</strong><span>Multiple match formats</span></div><div><strong>FAIR PLAY</strong><span>Respect every player</span></div>
+    </section>
+
+    <section class="section" id="tournaments">
+      <div class="section-heading"><div><div class="eyebrow">THE BATTLEFIELD</div><h2>FEATURED <em>MATCHES</em></h2></div><span class="section-tag">DEMO CONTENT</span></div>
+      <div class="filter-row" role="group" aria-label="Filter tournaments"><button class="filter active" data-filter="all">All matches</button><button class="filter" data-filter="solo">Solo</button><button class="filter" data-filter="duo">Duo</button><button class="filter" data-filter="squad">Squad</button></div>
+      <div class="tournament-grid" id="tournamentGrid">
+        <article class="match-card" data-mode="squad"><div class="card-top"><span class="match-type">SQUAD · COMMUNITY</span><span class="status upcoming">UPCOMING</span></div><div class="match-icon">✦</div><h3>Squad Clash</h3><p>Team up and test your coordination in a friendly community room.</p><div class="match-meta"><span>FORMAT <b>4 PLAYERS</b></span><span>ENTRY <b>FREE DEMO</b></span></div><button class="card-button" data-match="Squad Clash">View match details <span>↗</span></button></article>
+        <article class="match-card featured-card" data-mode="duo"><div class="card-top"><span class="match-type">DUO · COMMUNITY</span><span class="status open">OPEN DEMO</span></div><div class="match-icon">⌁</div><h3>Duo Rivals</h3><p>Two players. One plan. Build your teamwork and compete with respect.</p><div class="match-meta"><span>FORMAT <b>2 PLAYERS</b></span><span>ENTRY <b>FREE DEMO</b></span></div><button class="card-button" data-match="Duo Rivals">View match details <span>↗</span></button></article>
+        <article class="match-card" data-mode="solo"><div class="card-top"><span class="match-type">SOLO · COMMUNITY</span><span class="status upcoming">UPCOMING</span></div><div class="match-icon">◇</div><h3>Solo Showdown</h3><p>Step into the arena on your own and focus on smart, fair play.</p><div class="match-meta"><span>FORMAT <b>1 PLAYER</b></span><span>ENTRY <b>FREE DEMO</b></span></div><button class="card-button" data-match="Solo Showdown">View match details <span>↗</span></button></article>
+      </div>
+      <p class="demo-note">These are sample listings for the website preview, not live or officially affiliated Garena events.</p>
+    </section>
+
+    <section class="how-section" id="how"><div class="section-heading"><div><div class="eyebrow">GET IN THE GAME</div><h2>HOW IT <em>WORKS</em></h2></div></div><div class="steps"><div class="step"><span>01</span><h3>Explore</h3><p>Check match formats and community announcements.</p></div><div class="step"><span>02</span><h3>Prepare</h3><p>Bring your squad, follow the published rules and be on time.</p></div><div class="step"><span>03</span><h3>Compete</h3><p>Play fairly, respect others and follow match instructions.</p></div><div class="step"><span>04</span><h3>Improve</h3><p>Review results and keep growing as a player.</p></div></div></section>
+
+    <section class="section leaderboard-section" id="leaderboard"><div class="section-heading"><div><div class="eyebrow">THE TOP PLAYERS</div><h2>COMMUNITY <em>LEADERBOARD</em></h2></div><span class="section-tag">SAMPLE DATA</span></div><div class="leaderboard"><div class="leader-row leader-head"><span>RANK</span><span>PLAYER</span><span>MATCHES</span><span>POINTS</span></div><div class="leader-row"><span class="rank">01</span><strong>Player One</strong><span>—</span><b>—</b></div><div class="leader-row"><span class="rank">02</span><strong>Player Two</strong><span>—</span><b>—</b></div><div class="leader-row"><span class="rank">03</span><strong>Player Three</strong><span>—</span><b>—</b></div></div></section>
+
+    <section class="join-banner" id="about"><div><div class="eyebrow">WELCOME TO THE COMMUNITY</div><h2>YOUR GAME.<br><em>YOUR LEGACY.</em></h2><p>ZENVIXOFF ESPORTS is an independent community project. Stay tuned for verified announcements and match updates.</p></div><a class="button primary" href="https://github.com/zenvixoff-commits/zenvixoff-esports" target="_blank" rel="noreferrer">Follow the project ↗</a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">Z</span><span>ZENVIXOFF <b>ESPORTS</b></span></a><p>Independent community project · Not affiliated with Garena or Free Fire.</p><span>© <span id="year"></span> ZENVIXOFF ESPORTS</span></footer>
+  <dialog id="matchDialog"><button class="dialog-close" id="dialogClose" aria-label="Close">×</button><div class="eyebrow">MATCH PREVIEW</div><h2 id="dialogTitle">Match details</h2><p>This is a sample match listing. Official schedule, eligibility and rules will be published here after organizer verification.</p><p class="dialog-warning">No payment or registration is collected on this demo website.</p><button class="button primary" id="dialogOk">Got it</button></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
